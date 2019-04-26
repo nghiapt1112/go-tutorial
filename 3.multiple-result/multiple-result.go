@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func swap(x, y string) (string, string) {
-	return y, x
+    return y, x
 }
 
 func main() {
-	a, b := swap("before", "after")
-	fmt.Print(a, "\t", b)
+    a, b := swap("before", "after")
+    fmt.Print(a, "\t", b)
 }
