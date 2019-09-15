@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+)
 
 type Vertex struct {
     Lat, Long float64
@@ -48,8 +50,14 @@ func mutatingMap() {
 
 }
 
+func WordCount(s string) {
+    fmt.Println(map[string]int{"x": 1})
+}
+
 func main() {
     //myMap()
     //mapLiterals()
     mutatingMap()
+
+
 }
