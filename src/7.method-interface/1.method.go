@@ -15,20 +15,20 @@ func ScaleFunc(v *model.Vertex, f float64) {
 }
 
 //func main() {
-//    v := model.Vertex{3, 4}
-//    fmt.Println("Value before scale: ")
-//    fmt.Println(v.Abs())
-//    v.Scale(10)
-//    fmt.Println("Value after scale: ")
-//    fmt.Println(v.Abs())
-//    fmt.Println(Abs(v))
+//   v := model.Vertex{3, 4}
+//   fmt.Println("Value before scale: ")
+//   fmt.Println(v.Abs())
+//   v.Scale(10)
+//   fmt.Println("Value after scale: ")
+//   fmt.Println(v.Abs())
+//   fmt.Println(Abs(v))
 //
-//    fmt.Println("ScaleFunc by function in other package: ")
-//    ScaleFunc(&v, 10)
+//   fmt.Println("ScaleFunc by function in other package: ")
+//   ScaleFunc(&v, 10)
 //
-//    fmt.Println(v.Abs())
-//    fmt.Println(Abs(v))
+//   fmt.Println(v.Abs())
+//   fmt.Println(Abs(v))
 //
-//    fmt.Println("Print an object and print a pointer: ")
-//    fmt.Println(v, &v)
+//   fmt.Println("Print an object and print a pointer: ")
+//   fmt.Println(v, &v)
 //}
