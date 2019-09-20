@@ -1,14 +1,11 @@
 package main
 
-import "fmt"
-
-type Vertex struct {
-    X int
-    Y int
-}
-
+import (
+    "fmt"
+    "model"
+)
 func main() {
-    v :=Vertex{1,2}
+    v :=model.Vertex{1,2}
     fmt.Println("original value of v: ", v)
 
     // to change value of v 's X property
