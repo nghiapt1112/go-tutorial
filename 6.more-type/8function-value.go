@@ -38,6 +38,6 @@ func test2() {
 }
 
 func main() {
-    //test1()
-    test2()
+    test1()
+    //test2()
 }
